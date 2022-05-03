@@ -5,65 +5,99 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Mi primera app</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
 
 <body>
-    <header>
+    <header class="CabeceraPrincipal">
         <section>
-            <img src="" alt="logo">
+            <img src="images/App_Logo _Inspiraton _90.png" alt="">
         </section>
-        <section>
-            <p>Registro | Login</p>
-            <input type="search" placeholder="Busqueda">
+        <section class="contenidoCabecera">
+            <div>
+                <h1>Villonaco</h1>
+            </div>
+            <div>
+                <p>Registro | Login</p>
+            </div>
+            <div>
+                <input type="search" placeholder="Busqueda">
+            </div>
         </section>
     </header>
-    <nav>
+    <nav class="menuPrincipal">
         <a href="">Inicio</a>
-        <a href="">Servicios</a>
-        <a href="">Portafolio</a>
+        <a href="">Productos</a>
+        <a href="">Reserva</a>
         <a href="">Clientes</a>
         <a href="">Contactos</a>
     </nav>
-    <section>
-        <p>Slide de galeria</p>      
+    <section class="siliderPrincipal">
+        <img src="images/img1.png" alt="">
     </section>
     <main>
-        <article>
-            <header>
-                <p>Nombre de la noticia 1</p>
-            </header>
-            <img src="" alt="Foto de la noticia1">
-            <main>
-                <p>Contenido de la noticia</p>
-            </main>
-            <footer>Autor</footer>
-            <footer>Fecha</footer>
-        </article>
-        <article>
-            <header>
-                <p>Nombre de la noticia 2</p>
-            </header>
-            <img src="" alt="Foto de la noticia2">
-            <main>
-                <p>Contenido de la noticia</p>
-            </main>
-            <footer>Autor</footer>
-            <footer>Fecha</footer>
-        </article>
+        <h2>Platos del día</h2>
+        <section class="menu">
+            <article class="menuPlato">
+                <img src="images/Rectangle_3.png" alt="">
+                <h3>Pizza Italiana</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, mauris vestibulum nunc ut. Eget fusce
+                    sit tortor volutpat, felis .
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, mauris vestibulum nunc ut. Eget fusce
+                    sit tortor volutpat, felis .</p>
+            </article>
+            <article class="menuPlato">
+                <img src="images/Group_4.png" alt="">
+                <h3>Pizza Italiana</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, mauris vestibulum nunc ut. Eget fusce
+                    sit tortor volutpat, felis .</p>
+            </article>
+            <article class="menuPlato">
+                <img src="images/Group_6.png" alt="">
+                <h3>Pizza Italiana</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, mauris vestibulum nunc ut. Eget fusce
+                    sit tortor volutpat, felis .</p>
+            </article>
+        </section>
     </main>
-    <aside>
-        <h4>Sponsors</h4>
-        <img src="" alt="Sponsors 1">
-        <img src="" alt="Sponsors 2">
-        <img src="" alt="Sponsors 3">
-        <img src="" alt="Sponsors 4">
-        <img src="" alt="Sponsors 5">
-    </aside>
-    <footer>
-        <h6>Pie de página</h6>
+    <section class="chefMenu">
+        <h2>Nuestros Chefs</h2>
+        <section class="listaChef">
+            <article class="chefInfo">
+                <img src="images/Rectangle_9.png" alt="">
+                <div class="chefInfoInt">
+                    <h4>Luis Jaramillo</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, mauris vestibulum nunc ut. Eget
+                        fusce
+                        sit tortor volutpat, felis .
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, mauris vestibulum nunc ut. Eget
+                        fusce
+                        sit tortor volutpat, felis .</p>
+                    <button class="bt1">Mas informacion</button>
+                </div>
+
+            </article>
+            <article class="chefInfo">
+                <img src="images/Rectangle_9.png" alt="">
+                <div class="chefInfoInt">
+                    <h4>Luis Jaramillo</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, mauris vestibulum nunc ut. Eget
+                        fusce
+                        sit tortor volutpat, felis .
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, mauris vestibulum nunc ut. Eget
+                        fusce
+                        sit tortor volutpat, felis .</p>
+                    <button class="bt2">Mas informacion</button>
+                </div>
+
+            </article>
+        </section>
+    </section>
+    <footer class="piePagina">
+        <h6>Copyright 2020. Villonaco</h6>
     </footer>
 
 </body>

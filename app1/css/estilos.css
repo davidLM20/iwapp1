@@ -1,0 +1,183 @@
+/*enserrar los selectores*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+.CabeceraPrincipal, .menuPrincipal,.siliderPrincipal, main , .sponsors, .piePagina, .chefMenu{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.CabeceraPrincipal{
+    display: flex;
+    background-color: #2D0C58;
+}
+
+.CabeceraPrincipal h1{
+    color: #f0f0f0;
+    padding: 10px 40px;
+}
+.contenidoCabecera{
+    display: flex;
+}
+
+.menuPrincipal{
+    background-color: #E0DCDC;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+
+}
+
+.menuPrincipal a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #393939;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menuPrincipal a:hover{
+    background-color: #2D0C58;
+    color: #E0DCDC;
+    display: inline-block;
+    border-radius: 0 0 10px 10px;
+}
+
+.siliderPrincipal{
+    padding-top: 5em;
+}
+.siliderPrincipal img{
+    width: 100%;
+}
+
+main{
+    padding-top: 5em;
+    width: 70%;
+    color: #2D0C58;
+}
+.menu{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.menuPlato{
+    width: 25%;
+    text-align: left;
+    background-color: #E9E9E9;
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #393939;
+}
+.menuPlato img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.menuPlato p, h3{
+    padding: 0.3em;
+}
+
+.menuPlato:hover{
+    background-color: #3B1B6666;
+    color: #E0DCDC;
+    cursor: pointer;
+}
+
+
+.chefMenu{
+    padding-top: 5em;
+    width: 70%;
+    color: #2D0C58;
+}
+
+.listaChef{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.chefInfo{
+    display: flex;
+    padding: 2em;
+}
+.chefInfoInt{
+    display: flex;
+    padding-left: 1em;
+    flex-direction: column;
+    text-align: left;
+}
+
+.chefInfoInt h4{
+    padding-bottom: 1em;
+}
+.chefInfoInt p{
+    padding-bottom: 1em;
+}
+.chefInfo img{
+    border-radius: 100%;
+    width: 100%;
+}
+
+.bt1{
+    width: 50%;
+    height: 35px;
+    background-color: #0c5819;
+    color: #E0DCDC;
+}
+.bt2{
+    width: 50%;
+    height: 35px;
+    background-color: #0c2058;
+    color: #E0DCDC;
+}
+
+.piePagina{
+    background-color: #2D0C58;
+    color: #E0DCDC;
+}
+
+.piePagina h6{
+    text-align: center;
+    padding: 2em 0;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .menuPlato{
+        width: 80%;
+        text-align: left;
+        background-color: #E9E9E9;;
+        margin: 1em;
+        border-radius: 10px;
+        box-shadow: 10px 5px 5px #393939;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .menuPlato{
+        width: 80%;
+        text-align: left;
+        background-color: #E9E9E9;;
+        margin: 1em;
+        border-radius: 10px;
+        box-shadow: 10px 5px 5px #393939;
+    }
+}
