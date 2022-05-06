@@ -27,6 +27,9 @@ body{
     display: flex;
 }
 
+.usuarioClass{
+    color: #E0DCDC;
+}
 .menuPrincipal{
     background-color: #E0DCDC;
     text-align: center;
