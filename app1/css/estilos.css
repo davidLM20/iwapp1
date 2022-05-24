@@ -19,17 +19,22 @@ body{
     background-color: #2D0C58;
 }
 
-.CabeceraPrincipal h1{
+
+.contenidoCabecera{
+    display: flex;
+    align-items: center;
+    color: #E0DCDC;
+}
+
+.contenidoCabecera h1{
     color: #f0f0f0;
     padding: 10px 40px;
 }
-.contenidoCabecera{
-    display: flex;
+
+.CC2{
+    align-items: flex-end;
 }
 
-.usuarioClass{
-    color: #E0DCDC;
-}
 .menuPrincipal{
     background-color: #E0DCDC;
     text-align: center;
